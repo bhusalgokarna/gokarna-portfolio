@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <canvas id="particles"></canvas>
+    <script src="scripts.js" defer></script>
+    <title>Gokarna - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="static/CV.png" alt="Logo">
+                <span class="brand">Gokarna's Portfolio</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <div class="welcome-banner">
+                <div class="welcome-text">
+                    Welcome to my DevApp Portfolio — Explore my work, skills, and projects!
+                </div>
+            </div>
+
+            <div class="leftSection">
+                <h1>Hi, my name is <span class="name">Gokarna</span></h1>
+                <h2>and I am a passionate, proactive</h2>
+                <div><span id="element"></span></div>
+
+                <div class="button-group">
+                    <a href="static/assets/CV_Gokarna_Bhusal_EN.pdf" class="btn"><i class="fas fa-file-download"></i> Download Resume</a>
+                    <a href="https://github.com/bhusalgokarna" class="btn"><i class="fab fa-github"></i> Visit Github</a>
+                    
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="static/images-removebg.png" alt="Gokarna">
+            </div>
+
+        </section>
+
+
+
+        <hr>
+        <section id="about">
+            <div class="about-wrapper fade-in">
+
+                <h3 class="about-title">About Me</h3>
+
+                <div class="about-content">
+
+                    <div class="about-line">
+                        <div class="line-vertical"></div>
+                        <div class="line-horizontal"></div>
+                    </div>
+
+                    <p class="about-text">
+                        I am a dedicated and results-driven professional with a strong background in software
+                        development and data analysis. With a passion for technology and problem-solving, I have
+                        honed my skills in various programming languages and frameworks. I thrive in collaborative
+                        environments and enjoy working on projects that challenge me to think creatively and
+                        innovate. My goal is to leverage my technical expertise to contribute to impactful projects
+                        and drive business success.
+                    </p>
+
+                </div>
+
+                <!-- Optional signature -->
+                <div class="signature">— Gokarna</div>
+
+            </div>
+        </section>
+
+        <hr>
+        <section id="skills">
+            <h3 class="skills-title">Skills</h3>
+
+            <div class="skills-container">
+
+                <!-- Soft Skills -->
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <span class="skills-icon">🤝</span>
+                        <span class="gray">Soft Skills</span>
+                    </div>
+
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability</li>
+                        <li>Time Management</li>
+                    </ul>
+
+                    <span id="softSkills" class="typing"></span>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <span class="skills-icon">💻</span>
+                        <span class="gray">Technical Skills</span>
+                    </div>
+
+                    <ul>
+                        <li>Programming Languages: Python, C#, JavaScript</li>
+                        <li>Web Development: HTML, CSS, ASP.NET, React</li>
+                        <li>Data Analysis: SQL, Pandas, NumPy</li>
+                        <li>Machine Learning: Scikit-learn, TensorFlow</li>
+                        <li>Version Control: Git, GitHub</li>
+                    </ul>
+
+                    <span id="techSkills" class="typing"></span>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section id="experience" class="experience-section">
+            <span class="gray">What I have done so far</span>
+            <h3 class="experience-title">Work Experience</h3>
+            <div class="timeline">
+
+                <div class="timeline-item left">
+                    <div class="timeline-icon">
+                        <img src="static/images-removebg.png" alt="">
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Supervisor <span>(2010–2022)</span></h4>
+                        <p>
+                            Supervised daily operations, managed staff schedules, ensured customer satisfaction,
+                            and implemented process improvements that increased efficiency and reduced costs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-icon">
+                        <img src="static/images.png" alt="">
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Junior Back-end Developer <span>(2023–2024)</span></h4>
+                        <p>
+                            Developed backend services using .NET Core and SQL Server. Collaborated with frontend
+                            developers to integrate APIs and improve performance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-icon">
+                        <img src="static/images.png" alt="">
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Data Scientist Intern <span>(03.2025–06.2025)</span></h4>
+                        <p>
+                            Built a full-stack data science system: trained an image classification model,
+                            built a Django/Tailwind UI, integrated Celery/Redis workflows, and automated email
+                            notifications.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section id="projects" class="projects-section">
+            <h3 class="projects-title">Projects</h3>
+            <p class="projects-subtitle gray">Some of the work I’ve built recently</p>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT CARD 1 -->
+                <div class="project-card fade-in-project" data-modal="modal1">
+                    <img src="static/project1.png" class="project-image" alt="ERP System">
+                    <h4 class="project-name">ERP System (Full Stack)</h4>
+
+                    <div class="tags">
+                        <span>.NET</span>
+                        <span>SQL</span>
+                        <span>Blazor</span>
+                        <span>Clean Architecture</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/bhusalgokarna" class="btn-project"><i class="fab fa-github"></i> GitHub</a>
+                        <button class="btn-project open-modal">Details</button>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 2 -->
+                <div class="project-card fade-in-project" data-modal="modal2">
+                    <img src="static/project2.png" class="project-image" alt="ML Pipeline">
+                    <h4 class="project-name">Data Science Pipeline</h4>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>FastAPI</span>
+                        <span>Docker</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/bhusalgokarna" class="btn-project"><i class="fab fa-github"></i> GitHub</a>
+                        <button class="btn-project open-modal">Details</button>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 3 -->
+                <div class="project-card fade-in-project" data-modal="modal3">
+                    <img src="static/project3.png" class="project-image" alt="Portfolio Website">
+                    <h4 class="project-name">Portfolio Website</h4>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Animations</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/bhusalgokarna" class="btn-project"><i class="fab fa-github"></i> GitHub</a>
+                        <button class="btn-project open-modal">Details</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- MODAL 1 -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <!-- SLIDESHOW -->
+                <div class="modal-slider">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide active">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <button class="modal-slide-btn prev">&#10094;</button>
+                    <button class="modal-slide-btn next">&#10095;</button>
+                </div>
+                <h3>ERP System (Full Stack)</h3>
+                <p>
+                    A modular ERP system with authentication, inventory, invoicing, payroll, and analytics dashboards.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <div class="progress-bar"><span data-width="90%">.NET</span></div>
+                <div class="progress-bar"><span data-width="85%">SQL Server</span></div>
+                <div class="progress-bar"><span data-width="80%">Blazor</span></div>
+                <div class="progress-bar"><span data-width="70%">Clean Architecture</span></div>
+            </div>
+        </div>
+
+        <!-- MODAL 2 -->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <!-- SLIDESHOW -->
+                <div class="modal-slider">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide active">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <button class="modal-slide-btn prev">&#10094;</button>
+                    <button class="modal-slide-btn next">&#10095;</button>
+                </div>
+                <h3>Data Science Pipeline</h3>
+                <p>
+                    End‑to‑end ML pipeline with preprocessing, model training, evaluation, and deployment.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <div class="progress-bar"><span data-width="95%">Python</span></div>
+                <div class="progress-bar"><span data-width="85%">Machine Learning</span></div>
+                <div class="progress-bar"><span data-width="80%">FastAPI</span></div>
+                <div class="progress-bar"><span data-width="70%">Docker</span></div>
+            </div>
+        </div>
+
+        <!-- MODAL 3 -->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <!-- SLIDESHOW -->
+                <div class="modal-slider">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide active">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <img src="static/images-removebg.png" alt="" class="modal-slide">
+                    <button class="modal-slide-btn prev">&#10094;</button>
+                    <button class="modal-slide-btn next">&#10095;</button>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>
+                    A fully responsive personal portfolio with animations, timelines, and interactive UI.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <div class="progress-bar"><span data-width="95%">HTML</span></div>
+                <div class="progress-bar"><span data-width="90%">CSS</span></div>
+                <div class="progress-bar"><span data-width="85%">JavaScript</span></div>
+                <div class="progress-bar"><span data-width="80%">UI/UX</span></div>
+            </div>
+        </div>
+        <hr>
+        <section id="contact">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+            <!-- Your access key -->
+            <input type="hidden" name="access_key" value="f4b5c2fb-0324-4722-808c-b59a6a33ac0c">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label>Your Message</label>
+                <textarea name="message" rows="5" placeholder="Enter your message here" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-contact">Send Message</button>
+            
+        </form>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Column 1 -->
+            <div class="footer-col">
+                <h3 class="footer-logo">Gokarna’s Portfolio</h3>
+                <p class="footer-text">
+                    Full‑stack developer & data scientist. I build the clean, scalable, real‑world systems.
+                </p>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/bhusalgokarna" class="social-icon" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github" ></i> </a>
+                    <a href="http://linkedin.com/in/gokarna-bhusal-79381391" class="social-icon" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:bhusalgokarna@gmail.com" class="social-icon" title="Email" target="_blank"
+                        rel="noopener"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4 class="footer-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li>Email: bhusalgokarna@gmail.com</li>
+                    <li>Contact: +32 485 194 632</li>
+                    <li>Location: 3300 Tienen, Belgium</li>
+                    <li>Available for: Full‑time roles</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Gokarna’s Portfolio — All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
