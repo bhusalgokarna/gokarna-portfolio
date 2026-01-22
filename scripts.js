@@ -208,6 +208,10 @@ document.querySelectorAll(".modal-slider").forEach(slider => {
         slides.forEach(s => s.classList.remove("active"));
         slides[i].classList.add("active");
     };
+    
+    // Initialize first slide 
+    
+    showSlide(index);
 
     slider.querySelector(".next").addEventListener("click", () => {
         index = (index + 1) % slides.length;
