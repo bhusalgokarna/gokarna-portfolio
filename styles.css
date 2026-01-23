@@ -640,7 +640,7 @@
         padding: 40px 20px;
         max-width: 1000px;
         margin: auto;
-        height: 1000px;
+        height: auto
         justify-content: center;
     }
     /* GRID */
