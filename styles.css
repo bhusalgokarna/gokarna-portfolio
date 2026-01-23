@@ -150,7 +150,6 @@
     .leftSection {
         width: 45%;
         color: white;
-        font-size: 24px;
         line-height: 1.4;
         animation: fadeIn 1s ease-out forwards;
     }
@@ -190,8 +189,8 @@
         background-color: rgb(64, 9, 115);
         color: white;
         border: 1.5px solid white;
-        padding: 10px 20px;
-        margin-right: 15px;
+        padding: 10px 10px;
+        margin-right: 5px;
         border-radius: 6px;
         cursor: pointer;
         font-size: 12px;
@@ -840,9 +839,9 @@
     /*FORM*/
   
     .contact-form {
-        width: 100%;
-        max-width: 500px;
-        margin: 40px auto;
+        width: 90%;
+        max-width: auto;
+        margin: auto;
         background: rgba(255, 255, 255, 0.05);
         padding: 25px;
         border-radius: 10px;
