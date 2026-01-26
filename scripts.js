@@ -135,8 +135,8 @@ function typeWriter(elementId, words, typeSpeed = 100, backSpeed = 50, loop = tr
 }
 
 typeWriter("element", ["Web Developer", ".NET Developer", "Data Analyst", "Data Scientist"], 150, 50, true);
-typeWriter("softSkills", ["Communication", "Problem Solving", "Teamwork", "Adaptability", "Time Management", "Critical Thinking"], 150, 75, true);
-typeWriter("techSkills", ["Programming Languages: Python, C#, JavaScript", "Web Development: HTML, CSS, ASP.NET, React", "Data Analysis: SQL, Pandas, NumPy", "Machine Learning: Scikit-learn, TensorFlow", "Version Control: Git, GitHub"], 150, 75, true);
+typeWriter("softSkills", ["Proactive Mindset", "Analytical Thinking", "Problem Solving", "Communication", "Time Management", "Collaboration and Teamwork", "Adaptability and Conatinuous Learning","Attention to Detail", "Delivers high quality work within deadlines"], 150, 75, true);
+typeWriter("techSkills", ["C#, .NET, ASP.NET Core, REST APIs", "Entity Framework Core", "Clean Architecture", "DDD, OOP, SOLID, DRY", "Blazor, Angular, React", "HTML5, CSS3, Tailwind CSS", "JavaScript, TypeScript", "Python, Pandas, NumPy, Django, Celery", "SQL, MySQL, Azure Data Studio", "Power BI, Matplotlib, Seaborn, Plotly, Scikit-learn (classification, regression, clustering), TensorFlow / Keras basics, Git, GitHub workflows, Docker basics, CI/CD fundamentals, Visual Studio, VS Code, Postman, Swagger, Agile/Scrum workflows"], 150, 75, true);
 
 
 
