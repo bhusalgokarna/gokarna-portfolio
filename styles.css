@@ -11,7 +11,7 @@
         position: fixed;
         top: 0;
         width: 99%;
-        height: 80px;
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -44,13 +44,13 @@
     .nav-links {
         display: flex;
         list-style: none;
-        gap: 35px;
+        gap: 30px;
     }
 
     .nav-links li a {
         color: white;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         position: relative;
         padding-bottom: 4px;
@@ -143,7 +143,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 120px 10%;
-        min-height: 90vh;
     }
 
     /* LEFT SECTION */
@@ -317,7 +316,7 @@
         padding: 80px 20px;
         max-width: 1000px;
         margin: auto;
-        height: 600px;
+        height: 500px;
     }
 
     .about-wrapper {
@@ -429,7 +428,7 @@
     /* Section container */
     #skills {
         padding: 60px 20px;
-        max-width: 1200px;
+        max-width: auto;
         margin: auto;
         height: auto;
         justify-content: center;
@@ -452,9 +451,9 @@
 
     /* Each box */
     .skills-box {
-        width: 45%;
+        width: 47%;
         color: white;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid rgba(154, 71, 232, 0.4);
         border-radius: 10px;
         transition: 0.3s ease;
@@ -494,10 +493,10 @@
     }
     .skills-box ul .tech-skills{
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
     .skills-box ul .tech-skills p{
         font-size: 13px;
@@ -574,13 +573,14 @@
     /* Left side */
     .timeline-item.left {
         left: 0;
-        text-align: right;
+        text-align: center;
 
     }
 
     /* Right side */
     .timeline-item.right {
         left: 50%;
+        text-align: center;
     }
 
     /* Icon */
@@ -666,8 +666,8 @@
     /* GRID */
     .projects-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
 
     }
 
@@ -676,7 +676,7 @@
         background: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(154, 71, 232, 0.3);
         border-radius: 12px;
-        padding: 30px;
+        padding: 20px;
         transition: 0.3s ease;
         opacity: 0;
         transform: translateY(40px);
@@ -691,10 +691,13 @@
     /* IMAGE */
     .project-image {
         width: 100%;
-        height: 200px;
+        height: 160px;
         object-fit: cover;
         border-radius: 8px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+    }
+    .project-name{
+        text-align: center;
     }
 
     /* TAGS */
@@ -702,7 +705,8 @@
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
-        margin: 20px 0;
+        margin: 20px 0px;
+        margin-left: 30px;
     }
 
     .tags span {
@@ -710,7 +714,7 @@
         padding: 4px 10px;
         border-radius: 6px;
         font-size: 12px;
-        color: rgb(154, 71, 232);
+        color: white;
     }
 
     /* BUTTONS */
@@ -722,6 +726,7 @@
         text-decoration: none;
         transition: 0.3s ease;
         background-color: rgba(137, 43, 226, 0.036);
+        margin-left: 20px;
     }
 
     .btn-project:hover {
@@ -737,6 +742,7 @@
         justify-content: center;
         align-items: center;
         z-index: 999;
+        
     }
 
     .modal-content {
@@ -747,6 +753,7 @@
         max-width: 500px;
         border: 1px solid rgba(154, 71, 232, 0.4);
         box-shadow: 0 0 25px rgba(154, 71, 232, 0.4);
+     
     }
 
     .close {
@@ -797,7 +804,7 @@
     }
     .modal-slider img {
         border-radius: 10px;
-        width: 100%;
+        width: auto;
         height: 100%;
         object-fit: cover;
     }
@@ -858,13 +865,26 @@
 
 
     /*FORM*/
+    #contact {
+        padding: 60px 20px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .contact-title {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+        color: rgb(154, 71, 232);
+        font-weight: 700;
+    }
   
     .contact-form {
         width: 90%;
-        max-width: auto;
-        margin: auto;
+        max-width: 600px;
+        margin: 0 auto 40px;
         background: rgba(255, 255, 255, 0.05);
-        padding: 25px;
+        padding: 40px 25px;
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
@@ -915,7 +935,7 @@
         background: linear-gradient(180deg, rgb(18, 18, 62), rgb(10, 10, 40));
         padding: 60px 20px 20px;
         border-top: 2px solid rgb(154, 71, 232);
-        margin-top: 60px;
+        margin-top: auto;
         position: relative;
         z-index: 999999;
     }
